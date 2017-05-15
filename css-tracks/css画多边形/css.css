@@ -1,0 +1,41 @@
+div {
+    margin-bottom:10px;
+}
+#square{
+    width:100px;
+    height:100px;
+    background:red;
+}
+
+#rectangle{
+    width:200px;
+    height:100px;
+    background:red;
+}
+
+#circle{
+    width:100px;
+    height:100px;
+    background:red;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+}
+
+#oval {
+    width:200px;
+    height:100px;
+    background:red;
+    -webkit-border-radius:100px/50px;
+    -moz-border-radius:100px/50px;
+    border-radius:100px/50px;
+}
+
+#triangle-up{
+    width:0;
+    height:0;
+    border-left:50px solid transparent;
+    border-bottom:100px solid red;
+
+}
+
